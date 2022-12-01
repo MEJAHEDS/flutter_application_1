@@ -13,7 +13,7 @@ class RandomizePage extends StatefulWidget {
 class _RandomizePageState extends State<RandomizePage> {
   int? _generatedNumber;
   final randomGenerator = Random();
-
+  
   @override
   Widget build(BuildContext context) {
     widget.min;
